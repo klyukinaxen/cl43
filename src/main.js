@@ -1,17 +1,20 @@
 import Vue from 'vue'
+
+import 'normalize.css'
+
 import VueRouter from 'vue-router'
 import App from './App.vue'
-import MainPage from '@/components/pages/MainPage.vue'
-import AboutPage from '@/components/pages/AboutPage.vue'
+import ActualPage from '@/components/pages/ActualPage.vue'
+import ChoosingCoffeeBarPage from '@/components/pages/ChoosingCoffeeBarPage.vue'
 
 Vue.config.productionTip = false
 Vue.use(VueRouter)
 
 const router = new VueRouter({
     routes: [
-        { name: 'MainPage', path: '/', component: MainPage },
-        { name: 'AboutPage', path: '/about', component: AboutPage }
-    // { name: 'Error404Page', path: '/*', component: Error404Page }
+        { name: 'ActualPage', path: '/', component: ActualPage },
+        { name: 'ChoosingCoffeeBarPage', path: '/choosing-coffee-bar', component: ChoosingCoffeeBarPage }
+        // { name: 'Error404Page', path: '/*', component: Error404Page }
     ],
     mode: 'history'
     // linkActiveClass: 'link-my-active'

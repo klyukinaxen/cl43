@@ -1,6 +1,6 @@
 <template>
-    <div>
-        this is About page
+    <div class="choosing-coffee-bar">
+        ChoosingCoffeeBarPage
     </div>
 </template>
 

@@ -1,26 +1,30 @@
 <template>
     <div class="header">
-        <div class="logo"></div>
+        <div class="logo" />
 
-        <Menu />
+        <div>Делай что нравится! (:</div>
     </div>
 </template>
 
 <script>
-import Menu from '@/components/Menu.vue'
-
 export default {
     components: {
-        Menu
     }
 }
 </script>
 
 <style lang="scss" scoped>
-.logo {
-    background-image: url("~@/assets/logo.svg");
-    width: 50px;
-    height: 70px;
-    background-size: contain;
+.header {
+    margin-left: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo {
+        background-image: url("~@/assets/logo.svg");
+        width: 50px;
+        height: 70px;
+        background-size: contain;
+    }
 }
 </style>

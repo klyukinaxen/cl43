@@ -1,7 +1,11 @@
 <template>
     <div class="menu">
-        <router-link to="/">actual</router-link>
-        <router-link to="/about">"Выбранная точка"</router-link>
+        <router-link to="/">
+            actual
+        </router-link>
+        <router-link to="/about">
+            "Выбранная точка"
+        </router-link>
     </div>
 </template>
 
