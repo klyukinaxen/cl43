@@ -13,27 +13,27 @@
 </template>
 
 <script>
-import TodoItem from "@/components/TodoItem";
+import TodoItem from '@/components/TodoItem'
 
 export default {
     props: {},
-    data() {
+    data () {
         return {
             todos: [
-                { id: 1, title: "Buy bread", completed: false },
-                { id: 2, title: "Buy butter", completed: false },
-                { id: 3, title: "Buy candies", completed: false },
-            ],
-        };
+                { id: 1, title: 'Buy bread', completed: false },
+                { id: 2, title: 'Buy butter', completed: false },
+                { id: 3, title: 'Buy candies', completed: false }
+            ]
+        }
     },
     components: {
-        TodoItem,
+        TodoItem
     },
     methods: {
-        buttonClickHandler() {
-            console.log("buttonClickHandler", this.$router);
+        buttonClickHandler () {
+            console.log('buttonClickHandler', this.$router)
             // this.$router.push({ name: "About" });
-        },
-    },
-};
+        }
+    }
+}
 </script>

@@ -15,19 +15,19 @@
 <script>
 // import Menu from "@/components/Menu.vue";
 
-import Header from "@/components/Header.vue";
-import SideBar from "@/components/SideBar.vue";
-import Content from "@/components/Content.vue";
+import Header from '@/components/Header.vue'
+import SideBar from '@/components/SideBar.vue'
+import Content from '@/components/Content.vue'
 
 export default {
-    name: "App",
+    name: 'App',
     components: {
-        // Menu,
+    // Menu,
         Header,
         SideBar,
-        Content,
-    },
-};
+        Content
+    }
+}
 </script>
 
 <style lang="scss">

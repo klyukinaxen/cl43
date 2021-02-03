@@ -10,15 +10,14 @@ Vue.use(VueRouter)
 const router = new VueRouter({
     routes: [
         { name: 'MainPage', path: '/', component: MainPage },
-        { name: 'AboutPage', path: '/about', component: AboutPage },
-        // { name: 'Error404Page', path: '/*', component: Error404Page }
+        { name: 'AboutPage', path: '/about', component: AboutPage }
+    // { name: 'Error404Page', path: '/*', component: Error404Page }
     ],
-    mode: 'history',
+    mode: 'history'
     // linkActiveClass: 'link-my-active'
 })
 
 new Vue({
     router,
-    render: h => h(App),
+    render: h => h(App)
 }).$mount('#app')
-
