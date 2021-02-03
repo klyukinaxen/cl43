@@ -1,6 +1,6 @@
 <template>
     <div class="header">
-        <div>Logo</div>
+        <div class="logo"></div>
 
         <Menu />
     </div>
@@ -16,3 +16,11 @@ export default {
 };
 </script>
 
+<style lang="scss" scoped>
+.logo {
+    background-image: url("~@/assets/logo.svg");
+    width: 50px;
+    height: 70px;
+    background-size: contain;
+}
+</style>
