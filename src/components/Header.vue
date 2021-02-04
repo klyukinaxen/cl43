@@ -2,7 +2,9 @@
     <div class="header">
         <div class="logo" />
 
-        <div>Делай что нравится! (:</div>
+        <div class="dwyl">
+            Делай что нравится! (:
+        </div>
     </div>
 </template>
 
@@ -25,6 +27,11 @@ export default {
         width: 50px;
         height: 70px;
         background-size: contain;
+        margin: 30px;
     }
+}
+
+.dwyl{
+    padding: 50px;
 }
 </style>

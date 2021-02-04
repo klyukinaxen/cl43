@@ -1,10 +1,19 @@
 <template>
     <div class="actual-page">
-        <div>actual</div>
+        <h2> Актуальные инфоповоды</h2>
 
-        <button @click="buttonClickHandler">
-            btn
-        </button>
+        <div class="info-box">
+            <a href="/">Акция на 14 февраля</a>
+            <a href="/">Акция на 23 февраля</a>
+            <a href="/">Официальное открытие Глобуса 5-6 февраля</a>
+        </div>
+
+        <h2>полезные ссылки</h2>
+        <div class="useful-links">
+            <button @click="buttonClickHandler">
+                Общий график
+            </button>
+        </div>
     </div>
 </template>
 
@@ -27,3 +36,26 @@ export default {
     }
 }
 </script>
+
+<style lang="scss" scoped>
+    .info-box{
+        width: 100%;
+        background-color:#00584D;
+        color:white;
+        display: flex;
+        flex-direction: column;
+
+        a{
+            text-decoration: underline;
+            color: #fff;
+            padding: 10px 10px 10px 20px;
+        }
+
+        a:first-child{
+            padding-top:20px;
+        }
+        a:last-child{
+            padding-bottom:20px;
+        }
+    }
+</style>

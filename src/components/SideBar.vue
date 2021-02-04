@@ -2,12 +2,16 @@
     <div class="side-bar">
         <!-- menu -->
 
-        <router-link to="/">
-            actual
+        <router-link :to="{ name: 'ChoosingCoffeeBarPage' }">
+            выбор точки
         </router-link>
 
-        <router-link :to="{ name: 'ChoosingCoffeeBarPage' }">
-            choosing-coffee-bar
+        <router-link to="/">
+            актуальное
+        </router-link>
+
+        <router-link :to="{ name: 'FAQPage' }">
+            faq
         </router-link>
     </div>
 </template>
@@ -33,13 +37,23 @@ export default {
     align-items: flex-start;
 
     a {
-        padding: 10px;
+        padding: 13px 20px 13px 40px;
         width: 100%;
         text-align: left;
+        text-transform: uppercase;
+        font-size: 16px;
+
+        text-decoration: none;
+        color: #000;
 
         &.router-link-exact-active {
             font-weight: 700;
+            font-size: 22px;
         }
+    }
+
+    a:first-child{
+        padding: 50px 20px 13px 40px;
     }
 }
 </style>
