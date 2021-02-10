@@ -27,7 +27,8 @@ export default {
         width: 50px;
         height: 70px;
         background-size: contain;
-        margin: 30px;
+        background-repeat: no-repeat;
+        margin: 20px;
     }
 }
 
