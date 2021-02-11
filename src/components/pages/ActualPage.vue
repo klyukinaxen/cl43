@@ -13,39 +13,45 @@
         <div class="useful-links-block">
             <div class="links-first-block">
                 <button
-                    class="u-link"
+                    class="u-link-button"
                     @click="buttonClickHandler"
                 >
-                    общая таблица coffeelike
+                    общая таблица <br>coffeelike
+                    <div class="arrow" />
                 </button>
             </div>
             <div class="links-second-block">
                 <button
-                    class="u-link"
+                    class="u-link-button"
                     @click="buttonClickHandler"
                 >
                     пончики
+                    <div class="arrow" />
                 </button>
                 <button
-                    class="u-link"
+                    class="u-link-button"
                     @click="buttonClickHandler"
                 >
                     заказ еды корал
+                    <div class="arrow" />
                 </button>
-                <div class="u-link-third-block">
-                    <button
-                        class="u-link"
-                        @click="buttonClickHandler"
-                    >
-                        срез знаний
-                    </button>
-                    <button
-                        class="u-link"
-                        @click="buttonClickHandler"
-                    >
-                        инвентаризация
-                    </button>
-                </div>
+            </div>
+
+            <div class="links-second-block">
+                <button
+                    class="u-link-button"
+                    @click="buttonClickHandler"
+                >
+                    срез знаний
+                    <div class="arrow" />
+                </button>
+                <button
+                    class="u-link-button"
+                    @click="buttonClickHandler"
+                >
+                    инвентаризация
+                    <div class="arrow" />
+                </button>
             </div>
         </div>
         <!-- блок с важными моментами -->
@@ -63,6 +69,7 @@
                 >
                     Инвентаризация хозки
                     <br>2 февраля
+                    <div class="arrow" />
                 </button>
                 <button
                     class="task-link"
@@ -70,6 +77,7 @@
                 >
                     Сокращенная инвентаризация
                     <br> 16 февраля
+                    <div class="arrow" />
                 </button>
             </div>
             <div class="week-task-block">
@@ -79,6 +87,7 @@
                 >
                     Итоговая инвентаризация
                     <br>28 февраля
+                    <div class="arrow" />
                 </button>
             </div>
             <div class="week-task-block">
@@ -88,6 +97,7 @@
                 >
                     Итоговая инвентаризация
                     <br>28 февраля
+                    <div class="arrow" />
                 </button>
                 <button
                     class="task-link"
@@ -95,6 +105,7 @@
                 >
                     Срез знаний
                     <br>(последняя неделя февраля)
+                    <div class="arrow" />
                 </button>
             </div>
         </div>
@@ -166,39 +177,66 @@ export default {
         justify-content: center;
     }
 
-    .u-link {
-        width: 200px;
+    .u-link-button {
+        width: 230px;
         height: 50px;
 
-        background-color: #e39114;
-        border: none;
-        color: #fff;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+
+        background-color: #fff;
+        border: 2px solid #e39114;
+        box-sizing: border-box;
+        border-radius: 40px;
+        color: #e39114;
         text-transform: uppercase;
         font-size: 14px;
-        font-weight: 600;
+        font-weight: 700;
 
         margin: 15px;
+
+        .arrow {
+            width: 35px;
+            height: 35px;
+            background-image: url("~@/assets/arrow-orange.svg");
+        }
     }
 }
 
 // стили для блока с задачами на месяц
 .tasks-block {
     .task-link {
-        background-color: #0e3d99;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
 
         font-weight: 600;
         font-size: 13px;
-        border: none;
-        color: #fff;
+        background-color: #fff;
+        border: 2px solid #0e3d99;
+        box-sizing: border-box;
+        border-radius: 40px;
+        color: #0e3d99;
 
         width: 280px;
         height: 50px;
 
         margin: 15px;
 
-        border: 2px solid #7492cb;
-        box-sizing: border-box;
-        border-radius: 40px;
+        .arrow {
+            width: 35px;
+            height: 35px;
+            background-image: url("~@/assets/arrow.svg");
+        }
+    }
+    .week-task-block {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
     }
 
     display: flex;
