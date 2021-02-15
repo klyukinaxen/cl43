@@ -11,7 +11,19 @@
         <h2>полезные ссылки</h2>
         <div class="useful-links">
             <button @click="buttonClickHandler">
-                Общий график
+                Общая таблица coffeelike
+            </button>
+            <button @click="buttonClickHandler">
+                пончики
+            </button>
+            <button @click="buttonClickHandler">
+                заказ еды корал
+            </button>
+            <button @click="buttonClickHandler">
+                срез знаний
+            </button>
+            <button @click="buttonClickHandler">
+                инвентаризация
             </button>
         </div>
     </div>
@@ -38,24 +50,41 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-    .info-box{
+    .info-box {
         width: 100%;
+
         background-color:#00584D;
         color:white;
         display: flex;
         flex-direction: column;
 
-        a{
+        a {
             text-decoration: underline;
             color: #fff;
             padding: 10px 10px 10px 20px;
         }
 
-        a:first-child{
+        a:first-child {
             padding-top:20px;
         }
-        a:last-child{
+        a:last-child {
             padding-bottom:20px;
         }
     }
+
+    .useful-links{
+        display: flex;
+
+            button {
+            background-color: #E39114;
+            border: none;
+            color: #fff;
+            width: 165px;
+            height: 50px;
+            margin: 15px;
+            text-transform: uppercase;
+            font-size: 14px;
+        }
+    }
+
 </style>
