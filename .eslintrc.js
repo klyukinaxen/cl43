@@ -4,6 +4,7 @@ module.exports = {
         node: true
     },
     extends: [
+        'eslint:recommended',
         'plugin:vue/essential',
         'plugin:vue/recommended',
         '@vue/standard'
@@ -16,6 +17,8 @@ module.exports = {
         'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
         indent: ['error', 4],
         'vue/html-indent': ['warn', 4],
-        'vue/no-unused-components': 'warn'
+        'vue/no-unused-components': 'warn',
+        semi: 'warn',
+        'no-unused-vars': 'warn'
     }
 }

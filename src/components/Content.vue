@@ -11,7 +11,15 @@ export default {}
 </script>
 
 <style lang="scss" scoped>
+@import "@/assets/variables";
+
 .content {
-    margin-left: 250px;
+    margin-left: $sideBarWidth;
+}
+
+@media screen and (max-width: 1024px) {
+    .content {
+        margin-left: unset;
+    }
 }
 </style>

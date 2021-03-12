@@ -1,5 +1,6 @@
 <template>
     <div class="faq">
+        <!-- TODO: добавить ссылку на таблицу с теорией -->
         <div class="faq-info">
             Первое правило: сначала попробуй найти ответ на свой вопрос в поиске по стене группы
             <a
@@ -26,35 +27,35 @@
 </template>
 
 <script>
-export default {
-}
+export default {}
 </script>
 
 <style lang="scss" scoped>
 a {
     color: #000;
     font-weight: 400;
+
+    &:hover {
+        font-weight: 600;
+    }
 }
 
 .faq {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-
+    text-align: center;
     margin: 0 20px 20px 20px;
 
     .faq-info {
-        //font-weight: 600;
         font-size: 18px;
-        text-align: center;
     }
 
     .faq-item {
         color: #000;
         font-size: 20;
         text-decoration: underline;
-        margin: 15px;
+        margin-top: 30px;
     }
 }
 </style>

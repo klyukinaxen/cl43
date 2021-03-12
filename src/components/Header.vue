@@ -16,9 +16,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "@/assets/variables";
+
 .header {
-    margin-left: 250px;
+    margin-left: $sideBarWidth;
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
 
@@ -32,7 +35,23 @@ export default {
     }
 }
 
-.dwyl{
+.dwyl {
     padding: 50px;
+}
+
+@media screen and (max-width: 1024px) {
+    .header {
+        margin-left: unset;
+
+        .logo {
+            // display: none;
+            opacity: 0;
+        }
+
+        .dwyl {
+            padding: 20px;
+            font-size: 14px;
+        }
+    }
 }
 </style>
