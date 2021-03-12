@@ -23,7 +23,7 @@ const router = new VueRouter({
         { name: 'CoffeeBarPage', path: '/coffeebar', component: CoffeeBarPage }
         // { name: 'Error404Page', path: '/*', component: Error404Page }
     ],
-    mode: 'history'
+    mode: 'hash'
     // linkActiveClass: 'link-my-active'
 })
 
