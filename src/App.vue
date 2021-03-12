@@ -19,6 +19,23 @@ export default {
         Header,
         SideBar,
         Content
+    },
+    data () {
+        return {
+            // description: 'Делай что нравится вместе с CoffeeLike'
+        }
+    },
+    metaInfo () {
+        return {
+            // title: 'Coffee Like 43',
+            // meta: [
+            //     {
+            //         vmid: 'description',
+            //         name: 'description',
+            //         content: this.description
+            //     }
+            // ]
+        }
     }
 }
 </script>

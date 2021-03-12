@@ -1,4 +1,5 @@
 import Vue from 'vue'
+import VueMeta from 'vue-meta'
 
 import 'normalize.css'
 
@@ -10,7 +11,9 @@ import FAQPage from '@/components/pages/FAQPage.vue'
 import CoffeeBarPage from '@/components/pages/CoffeeBarPage.vue'
 
 Vue.config.productionTip = false
+
 Vue.use(VueRouter)
+Vue.use(VueMeta)
 
 const router = new VueRouter({
     routes: [
