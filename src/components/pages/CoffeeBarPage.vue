@@ -316,6 +316,7 @@ export default {
     @media screen and (max-width: 1000px) {
         .coffee-bar-name-container {
             flex-direction: column;
+
             .title {
                 font-size: 18px;
             }
