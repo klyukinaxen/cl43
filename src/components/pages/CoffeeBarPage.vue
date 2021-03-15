@@ -65,8 +65,8 @@
         <div class="about-coffee-bar">
             <div class="info-block">
                 <span class="info-title"> Рекомендуемый заказ еды: </span>
-                <span class="info"> Пончики {{ coffeeBarInfo.donutsOrder }} штук </span>
-                <span class="info"> Сырники и маффины {{ coffeeBarInfo.koralOrder }} штук </span>
+                <span class="info"> Пончики: {{ coffeeBarInfo.donutsOrder }} штук </span>
+                <span class="info"> Сырники и маффины: {{ coffeeBarInfo.koralOrder }}  </span>
             </div>
             <div class="check-block">
                 <a
