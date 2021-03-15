@@ -80,8 +80,8 @@
         {
             "name": "Макси",
             "id": "9",
-            "donutsOrder": "",
-            "koralOrder": "",
+            "donutsOrder": "10",
+            "koralOrder": "фиксированный",
             "weekOrder": "воскресенье или среда",
             "faqLink": "https://docs.google.com/document/d/1GWmPoo8R1HciUjF0rdQ9N0fx3fkMmOFBl308kl4JtAQ/edit",
             "weekTasks": ""
@@ -98,8 +98,8 @@
         {
             "name": "Московская",
             "id": "11",
-            "donutsOrder": "",
-            "koralOrder": "",
+            "donutsOrder": "10",
+            "koralOrder": "3-4 маффина, 2-3 сырники",
             "weekOrder": "среда",
             "faqLink": "https://docs.google.com/document/d/1gis5bi17btES4K5zK6VnbQ_RT5tFakmV3shdT26hB5E/edit",
             "weekTasks": ""
