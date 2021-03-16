@@ -66,7 +66,7 @@
             <div class="info-block">
                 <span class="info-title"> Рекомендуемый заказ еды: </span>
                 <span class="info"> Пончики: {{ coffeeBarInfo.donutsOrder }} штук </span>
-                <span class="info"> Сырники и маффины: {{ coffeeBarInfo.koralOrder }}  </span>
+                <span class="info"> Маффины: {{ coffeeBarInfo.koralOrder }}  </span>
             </div>
             <div class="check-block">
                 <a

@@ -17,8 +17,8 @@
         {
             "name": "Атлант",
             "id": "2",
-            "donutsOrder": "",
-            "koralOrder": "",
+            "donutsOrder": "10",
+            "koralOrder": "не заказываем",
             "weekOrder": "воскресенье",
             "faqLink": "https://docs.google.com/document/d/1C-omf4OJWsh9wXtHyq-5ZAIc3wo-ZFXUUKPsLCUXrV0/edit",
             "weekTasks": ""
@@ -56,7 +56,7 @@
             "donutsOrder": "",
             "koralOrder": "",
             "weekOrder": "воскресенье и среда",
-            "faqLink": "https://docs.google.com/document/d/1lD9JEUaj8JKs1v0uHOvPQ2tM_HvICycblQE2KeHj1cs/edit",
+            "faqLink": "https://docs.google.com/document/d/1vv0fQWg8Mv71cekJCpZtETfLK9Df5DFYl4xfXoRp2DE/edit",
             "weekTasks": ""
         },
         {
@@ -81,7 +81,7 @@
             "name": "Макси",
             "id": "9",
             "donutsOrder": "10",
-            "koralOrder": "фиксированный",
+            "koralOrder": "фиксированный заказ",
             "weekOrder": "воскресенье или среда",
             "faqLink": "https://docs.google.com/document/d/1GWmPoo8R1HciUjF0rdQ9N0fx3fkMmOFBl308kl4JtAQ/edit",
             "weekTasks": ""
@@ -89,8 +89,8 @@
         {
             "name": "Малахит",
             "id": "10",
-            "donutsOrder": "",
-            "koralOrder": "",
+            "donutsOrder": "7-8",
+            "koralOrder": "не заказываем",
             "weekOrder": "среда",
             "faqLink": "https://docs.google.com/document/d/16_H8jwwjBBGF-Nb9-2QLi_0VmveEpGzW7GLD4KRM-2o/edit",
             "weekTasks": ""
@@ -99,7 +99,7 @@
             "name": "Московская",
             "id": "11",
             "donutsOrder": "10",
-            "koralOrder": "3-4 маффина, 2-3 сырники",
+            "koralOrder": "3-4 штуки",
             "weekOrder": "среда",
             "faqLink": "https://docs.google.com/document/d/1gis5bi17btES4K5zK6VnbQ_RT5tFakmV3shdT26hB5E/edit",
             "weekTasks": ""
@@ -153,8 +153,8 @@
         {
             "name": "Цирк",
             "id": "17",
-            "donutsOrder": "",
-            "koralOrder": "",
+            "donutsOrder": "12-15",
+            "koralOrder": "не заказываем",
             "weekOrder": "среда",
             "faqLink": "https://docs.google.com/document/d/1lizobn6AGDZLFYyqGZLPUmBPW0d6j2AbachR-6Bxc74/edit",
             "weekTasks": ""
@@ -163,7 +163,7 @@
             "name": "Филармония",
             "id": "18",
             "donutsOrder": "15-20",
-            "koralOrder": "сырники 1-2, маффины 0-5",
+            "koralOrder": "0-5 штук",
             "weekOrder": "воскресенье и среда",
             "faqLink": "https://docs.google.com/document/d/1vqUmQUt9lAGpJcpuOwBAcNRxE_-cg834OYObteKjpWE/edit",
             "weekTasks": ""
