@@ -4,7 +4,7 @@
         @click="menuIsShow = !menuIsShow"
     >
         <!-- menu -->
-
+        <!-- TODO:сделать чтобы меню скрывалось по тапу на экран -->
         <router-link :to="{ name: 'ChoosingCoffeeBarPage' }">
             выбор точки
         </router-link>

@@ -162,8 +162,8 @@
         {
             "name": "Филармония",
             "id": "18",
-            "donutsOrder": "",
-            "koralOrder": "",
+            "donutsOrder": "15-20",
+            "koralOrder": "сырники 1-2, маффины 0-5",
             "weekOrder": "воскресенье и среда",
             "faqLink": "https://docs.google.com/document/d/1vqUmQUt9lAGpJcpuOwBAcNRxE_-cg834OYObteKjpWE/edit",
             "weekTasks": ""
