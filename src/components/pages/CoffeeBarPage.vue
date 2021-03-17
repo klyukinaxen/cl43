@@ -21,6 +21,7 @@
                 :key="task.name"
                 :href="task.link"
                 class="week-task"
+                target="_blank"
             >
                 {{ task.name }}
             </a>

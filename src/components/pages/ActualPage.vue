@@ -4,9 +4,18 @@
         <h2> Актуальные инфоповоды</h2>
         <!-- блок с информацией по инфоповодам -->
         <div class="info-block">
-            <a href="https://vk.com/likefamily43?w=wall-91816128_6610"> Что за кофеварка Вилфа и как с ней обращаться</a>
-            <a href="https://vk.com/likefamily43?w=wall-91816128_6609"> Пост с 15.03 по 1.05. Что можно предложить постящимся гостям?</a>
-            <a href="https://vk.com/likefamily43?w=wall-91816128_6605"> Новое весеннее меню </a>
+            <a
+                href="https://vk.com/likefamily43?w=wall-91816128_6610"
+                target="_blank"
+            > Что за кофеварка Вилфа и как с ней обращаться</a>
+            <a
+                target="_blank"
+                href="https://vk.com/likefamily43?w=wall-91816128_6609"
+            > Пост с 15.03 по 1.05. Что можно предложить постящимся гостям?</a>
+            <a
+                target="_blank"
+                href="https://vk.com/likefamily43?w=wall-91816128_6605"
+            > Новое весеннее меню </a>
         </div>
         <!-- блок с полезными ссылками -->
         <h2>полезные ссылки</h2>
