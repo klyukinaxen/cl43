@@ -191,9 +191,14 @@ export default {
 
         .week-task {
             color: #fff;
-            font-size: 14px;
+            font-size: 17px;
+            width: 100%;
             text-decoration: none;
             border: none;
+
+            &:not(:first-child) {
+                margin-top: 15px;
+            }
 
             &:hover {
                 border: none;
