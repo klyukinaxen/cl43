@@ -30,7 +30,12 @@
             "koralOrder": "",
             "weekOrder": "среда",
             "faqLink": "https://docs.google.com/document/d/13U2rX3K4QP-JRcwQF8QBltCfOeQ6ve-ueq-aIESranM/edit",
-            "weekTasks": ""
+            "weekTasks": [
+                {
+                    "name": "18.03 заявка хозки",
+                    "link": "https://docs.google.com/spreadsheets/d/1jaC3XbYSkgkcy1m8b1AhsonZzp0vKMFJHcSR9AGSoc8/edit#gid=80363468"
+                }
+            ]
         },
         {
             "name": "ГринХаус",
@@ -39,7 +44,11 @@
             "koralOrder": "",
             "weekOrder": "воскресенье",
             "faqLink": "https://docs.google.com/document/d/111-7xv5UMI1YpMVLXdagnlLrnnKUbqqFhzC9EL-dbjc/edit",
-            "weekTasks": ""
+            "weekTasks": [
+                {
+                    "name": "Задач технику нет. Кнопки починили, сильно не тыкаем"
+                }
+            ]
         },
         {
             "name": "Jam Moll",
@@ -57,7 +66,11 @@
             "koralOrder": "",
             "weekOrder": "воскресенье и среда",
             "faqLink": "https://docs.google.com/document/d/1vv0fQWg8Mv71cekJCpZtETfLK9Df5DFYl4xfXoRp2DE/edit",
-            "weekTasks": ""
+            "weekTasks": [
+                {
+                    "name": "26.03 Генеральная уборка"
+                }
+            ]
         },
         {
             "name": "Кейтеринг",
@@ -102,7 +115,11 @@
             "koralOrder": "3-4 штуки",
             "weekOrder": "среда",
             "faqLink": "https://docs.google.com/document/d/1gis5bi17btES4K5zK6VnbQ_RT5tFakmV3shdT26hB5E/edit",
-            "weekTasks": ""
+            "weekTasks": [
+                {
+                    "name": "Задачи технику: печать, слив ледогенератора"
+                }
+            ]
         },
         {
             "name": "Октябрь",
@@ -111,7 +128,14 @@
             "koralOrder": "не заказываем",
             "weekOrder": "среда",
             "faqLink": "https://docs.google.com/document/d/1cIcsmtN4JKWQNEcd1fz1bwytycNU_EhgU2VvBnoUgvU/edit",
-            "weekTasks": ""
+            "weekTasks": [
+                {
+                    "name": "27.03 Генеральная уборка"
+                },
+                {
+                    "name": "Задачи технику: касса и термопот"
+                }
+            ]
         },
         {
             "name": "Простор",
@@ -144,11 +168,18 @@
         {
             "name": "Театралка",
             "id": "16",
-            "donutsOrder": "",
-            "koralOrder": "",
+            "donutsOrder": "8-12",
+            "koralOrder": "не заказываем",
             "weekOrder": "воскресенье",
             "faqLink": "https://docs.google.com/document/d/10G3TqdzzbGIoMlcQttAYJnDi4bFSD_k34kqs3rF0gF8/edit",
-            "weekTasks": ""
+            "weekTasks": [
+                {
+                    "name": "29.03 Генеральная уборка"
+                },
+                {
+                    "name": "Задача технику: потолок"
+                }
+            ]
         },
         {
             "name": "Цирк",

@@ -111,7 +111,7 @@
                 <span> Проверить пончики</span>
             </a>
             <a
-                href=""
+                href="https://docs.google.com/forms/d/e/1FAIpQLScH8m4s-ilBeN0I9By5896JzMRWcqiqb4-Ld3vHl-nxLDVeGg/viewform"
                 class="link"
                 target="_blank"
             >
@@ -129,7 +129,7 @@
                 class="link"
                 target="_blank"
             >
-                <span> Trello  </span>
+                <span> Trello </span>
             </a>
         </div>
     </div>
@@ -185,6 +185,7 @@ export default {
         display: flex;
         flex-direction: column;
         align-items: center;
+        text-align: center;
         margin: 15px 0 15px 0;
         padding: 15px 0 15px 0;
 
