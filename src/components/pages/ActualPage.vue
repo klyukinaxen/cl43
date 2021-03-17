@@ -4,9 +4,9 @@
         <h2> Актуальные инфоповоды</h2>
         <!-- блок с информацией по инфоповодам -->
         <div class="info-block">
-            <a href="/">Акция на 8 марта</a>
-            <a href="/">День рождения Малахита 26-27 февраля</a>
-            <a href="/" />
+            <a href="https://vk.com/likefamily43?w=wall-91816128_6610"> Что за кофеварка Вилфа и как с ней обращаться</a>
+            <a href="https://vk.com/likefamily43?w=wall-91816128_6609"> Пост с 15.03 по 1.05. Что можно предложить постящимся гостям?</a>
+            <a href="https://vk.com/likefamily43?w=wall-91816128_6605"> Новое весеннее меню </a>
         </div>
         <!-- блок с полезными ссылками -->
         <h2>полезные ссылки</h2>
@@ -62,7 +62,7 @@
         </div>
         <!-- блок с важными моментами -->
         <div class="info-block">
-            <h3>Не забудь заказать маффины и сырники до 16:00</h3>
+            <h3>Не забудь заказать маффины до 16:00</h3>
             <h3>Пончики заказываем до 20:00</h3>
         </div>
         <!-- блок с общими задачами на месяц -->
@@ -75,7 +75,7 @@
                     href="https://coffeelike-kirov.iikoweb.ru/amc/index.html#/main/dashboard/dashboard"
                 >
                     <span>Инвентаризация хозки
-                        <br>2 февраля</span>
+                        <br>3 марта</span>
                     <div class="arrow" />
                 </a>
                 <a
@@ -84,7 +84,7 @@
                     href="https://coffeelike-kirov.iikoweb.ru/amc/index.html#/main/dashboard/dashboard"
                 >
                     <span>Сокращенная инвентаризация
-                        <br> 16 февраля</span>
+                        <br> 16 марта</span>
                     <div class="arrow" />
                 </a>
             </div>
@@ -95,27 +95,18 @@
                     href="https://coffeelike-kirov.iikoweb.ru/amc/index.html#/main/dashboard/dashboard"
                 >
                     <span>Итоговая инвентаризация
-                        <br>28 февраля</span>
+                        <br>30 марта</span>
                     <div class="arrow" />
                 </a>
             </div>
             <div class="week-task-block">
-                <a
-                    class="task-link"
-                    target="_blank"
-                    href="https://coffeelike-kirov.iikoweb.ru/amc/index.html#/main/dashboard/dashboard"
-                >
-                    <span>Итоговая инвентаризация
-                        <br>28 февраля</span>
-                    <div class="arrow" />
-                </a>
                 <a
                     class="task-link"
                     target="_blank"
                     href="https://antitreningi.ru"
                 >
                     <span>Срез знаний
-                        <br>(последняя неделя февраля)</span>
+                        <br>(последняя неделя марта)</span>
                     <div class="arrow" />
                 </a>
             </div>

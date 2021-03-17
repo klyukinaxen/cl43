@@ -107,8 +107,8 @@
         {
             "name": "Октябрь",
             "id": "12",
-            "donutsOrder": "",
-            "koralOrder": "",
+            "donutsOrder": "20",
+            "koralOrder": "не заказываем",
             "weekOrder": "среда",
             "faqLink": "https://docs.google.com/document/d/1cIcsmtN4JKWQNEcd1fz1bwytycNU_EhgU2VvBnoUgvU/edit",
             "weekTasks": ""

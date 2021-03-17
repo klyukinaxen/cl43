@@ -59,14 +59,12 @@
             </a>
         </div>
 
-        <!-- добавить чек листы открытия и закрытия? -->
-
         <!-- рекомендуемый заказ еды -->
         <div class="about-coffee-bar">
             <div class="info-block">
                 <span class="info-title"> Рекомендуемый заказ еды: </span>
                 <span class="info"> Пончики: {{ coffeeBarInfo.donutsOrder }} штук </span>
-                <span class="info"> Маффины: {{ coffeeBarInfo.koralOrder }}  </span>
+                <span class="info"> Маффины: {{ coffeeBarInfo.koralOrder }} </span>
             </div>
             <div class="check-block">
                 <a
@@ -103,11 +101,38 @@
             </div>
         </div>
 
+        <h2>Уголок шефа</h2>
         <div class="chief-links">
-            <h2>Уголок шефа</h2>
+            <a
+                href="https://docs.google.com/spreadsheets/d/1Orc6HkFQeGyFxCBTgQOM9mBh7P0g9AENb9ct4h_etHY/edit#gid=380849623"
+                class="link"
+                target="_blank"
+            >
+                <span> Проверить пончики</span>
+            </a>
+            <a
+                href=""
+                class="link"
+                target="_blank"
+            >
+                <span> Чек-лист проверки </span>
+            </a>
+            <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSeBUTJOITHrxumkFz0oC6EUZtjb2ltXaWE5NX0HxSog1WBdIQ/viewform"
+                class="link"
+                target="_blank"
+            >
+                <span> Чек-лист шефа </span>
+            </a>
+            <a
+                href="https://trello.com/b/31YfOVFd/задачи-шефов"
+                class="link"
+                target="_blank"
+            >
+                <span> Trello  </span>
+            </a>
         </div>
     </div>
-    <!-- TODO: сделать медиа-запрос для мобилки чтобы скрывалась таблица и на ее месте рисовалась кнопка перехода к таблице обратной связи -->
     <div v-else>
         oops
     </div>
@@ -153,45 +178,6 @@ export default {
     justify-content: center;
     padding: 15px 0 15px 0;
 
-    .coffee-bar-name-container {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        align-items: center;
-
-        .title {
-            font-size: 24px;
-            font-weight: 400;
-            text-transform: uppercase;
-            color: #000000;
-            text-align: left;
-            margin: 15px 0 15px 30px;
-        }
-
-        .order-title {
-            font-size: 18px;
-            font-weight: 400;
-            text-transform: uppercase;
-            margin: 15px 30px 15px 0;
-        }
-    }
-
-    a {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        text-decoration: none;
-        cursor: pointer;
-        width: 180px;
-        height: 40px;
-        border-radius: 40px;
-    }
-    a:hover {
-        box-shadow: 0 0 5px 1px;
-    }
-
     .week-tasks {
         width: 100%;
         background-color: var(--green);
@@ -216,33 +202,71 @@ export default {
         }
     }
 
+    .coffee-bar-name-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 30px;
+
+        .title {
+            font-size: 24px;
+            font-weight: 400;
+            text-transform: uppercase;
+            color: #000000;
+            text-align: left;
+        }
+
+        .order-title {
+            font-size: 18px;
+            font-weight: 400;
+            text-transform: uppercase;
+        }
+    }
+
+    a {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        cursor: pointer;
+        width: 180px;
+        height: 40px;
+        border-radius: 40px;
+    }
+    a:hover {
+        box-shadow: 0 0 5px 1px;
+    }
+
+    .link {
+        background-color: #fff;
+        border: 2px solid var(--green);
+        box-sizing: border-box;
+        border-radius: 40px;
+        color: var(--green);
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 700;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        width: 180px;
+        height: 40px;
+
+        margin: 20px;
+        padding: 0 15px 0 15px;
+    }
     .useful-links {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
         align-items: center;
-
-        .link {
-            background-color: #fff;
-            border: 2px solid var(--green);
-            box-sizing: border-box;
-            border-radius: 40px;
-            color: var(--green);
-            text-transform: uppercase;
-            font-size: 14px;
-            font-weight: 700;
-
-            display: flex;
-            justify-content: center;
-            align-items: center;
-
-            width: 180px;
-            height: 40px;
-
-            margin: 20px;
-            padding: 0 15px 0 15px;
-        }
     }
 
     .sheets-info {
@@ -312,7 +336,12 @@ export default {
             text-decoration: none;
         }
     }
-
+    .chief-links {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
     @media screen and (max-width: 1000px) {
         .coffee-bar-name-container {
             flex-direction: column;
@@ -322,6 +351,7 @@ export default {
             }
             .order-title {
                 font-size: 14px;
+                margin-top: 15px;
             }
         }
 
